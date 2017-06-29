@@ -1,6 +1,5 @@
 // tasks and configurations needed for testing and packaging the project
 module.exports = function (grunt) {
-    grunt.util._;
     grunt.initConfig({
         // tasks
         jshint: {
@@ -18,7 +17,7 @@ module.exports = function (grunt) {
                     expect: false,
                     beforeEach: false,
                     afterEach: false,
-                    sinon: false
+                    sinon: false               
                 },
                 // enabling the browser and devel JSHint environments
                 browser: true,
